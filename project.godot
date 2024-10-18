@@ -14,6 +14,20 @@ config/name="Sixty Seconds: Multiplayer"
 run/main_scene="res://scenes/Root.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 
+[autoload]
+
+Globals="*res://scripts/globals.gd"
+Networking="*res://scripts/networking/networking.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
 [dotnet]
 
 project/assembly_name="Sixty Seconds- Multiplayer"
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)
